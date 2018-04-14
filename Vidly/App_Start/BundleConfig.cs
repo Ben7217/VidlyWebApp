@@ -19,7 +19,7 @@ namespace Vidly
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap-darkly").Include(
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
